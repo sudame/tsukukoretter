@@ -1,10 +1,18 @@
 $(document).ready(function(){
-    $("#men-switch").on('click', function(){
-        $(".men-column").toggle();
+    $("#men-switch-checkbox").change(function(){
+        if($("#men-switch-checkbox").is(':checked')){
+            $(".men-column").show();
+        } else {
+            $(".men-column").hide();
+        }
     });
 
-    $("#women-switch").on('click', function(){
-        $(".women-column").toggle();
+    $("#women-switch-checkbox").change(function(){
+        if($("#women-switch-checkbox").is(':checked')){
+            $(".women-column").show();
+        } else {
+            $(".women-column").hide();
+        }
     });
 })
 

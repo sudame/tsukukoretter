@@ -4,8 +4,12 @@ html, body{
     background-color: lightgray;
 }
 
+.scroll-zone{
+    height: 5vh;
+}
+
 .wrapper{
-    height: 100vh;
+    height: 95vh;
     overflow-y: hidden;
 }
 
