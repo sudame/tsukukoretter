@@ -14,5 +14,9 @@ $(document).ready(function(){
             $(".women-column").hide();
         }
     });
-})
+});
+
+$("iframe").on("load",function(){
+    $("iframe").contents().find('.timeline-Viewport').css({"-webkit-overflow-scrolling": "touch"});
+});
 
