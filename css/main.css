@@ -15,7 +15,7 @@ html, body{
     justify-content: space-around;
     height: 100%;
 }
-.flex-container div{
+.flex-container > div{
     height: 100%;
     min-width: 250px;
     overflow: hidden;
@@ -25,3 +25,57 @@ html, body{
 .flex-container div:last-child{
     margin: 0;
 }
+
+.menu-column{
+    background-color: #2B7BB9;
+    border-radius: 5px;
+    padding: 3px;
+    color: lightgray;
+    height: 100%;
+    width: 250px;
+}
+
+.menu-column h1{
+    text-align: center;
+}
+
+.menu-column hr{
+    border-top: gray solid 1px;
+}
+
+.menu-column div.button{
+    width: 90%;
+    height: 50px;
+    background-color: lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.menu-column div.button h3{
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    margin: 0;
+}
+
+div.button.switch{
+    display: table;
+}
+
+div.button.switch > div{
+    display: table-cell;
+}
+
+div.button.switch > div:first-child{
+    width: 80%;
+}
+/* .menu-column div.button h3::after{
+    text-align: right;
+    right: 0.5em;
+    bottom: 50px;
+    line-height: 50px;
+    display: block;
+    content: ">>";
+    position: relative;
+} */
