@@ -1,11 +1,11 @@
 html, body{
     padding: 0;
     margin: 0;
+    background-color: lightgray;
 }
 
 .wrapper{
     height: 100vh;
-    overflow-x: scroll;
     overflow-y: hidden;
 }
 
@@ -19,4 +19,9 @@ html, body{
     height: 100%;
     min-width: 250px;
     overflow: hidden;
+    margin-right: 5px;
+}
+
+.flex-container div:last-child{
+    margin: 0;
 }
