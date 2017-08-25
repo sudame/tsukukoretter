@@ -23,7 +23,7 @@ html, body{
     padding: 0;
     height: 100vh;
     overflow-y: hidden;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 
 .flex-container{
@@ -88,6 +88,10 @@ div.button.switch > div{
 
 div.button.switch > div:first-child{
     width: 80%;
+}
+
+.timeline-Viewport{
+    -webkit-overflow-scrolling: touch;
 }
 /* .menu-column div.button h3::after{
     text-align: right;
