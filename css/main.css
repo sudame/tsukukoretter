@@ -1,15 +1,15 @@
 html body{
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .flex-container{
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    min-width: 1000px;
     height: 100vh;
 }
 .flex-container div{
     height: 100vh;
+    min-width: 250px;
     overflow: hidden;
 }
