@@ -4,20 +4,6 @@ html, body{
     background-color: lightgray;
 }
 
-.scroll-zone{
-    height: 5vh;
-    margin: 0;
-    padding: 0;
-}
-
-.scroll-zone > p{
-    line-height: 5vh;
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 0;
-}
-
 .wrapper{
     margin: 0;
     padding: 0;
