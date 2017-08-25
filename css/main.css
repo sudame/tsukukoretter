@@ -6,16 +6,21 @@ html, body{
 
 .scroll-zone{
     height: 5vh;
+    margin: 0;
+    padding: 0;
 }
 
 .scroll-zone > p{
     line-height: 5vh;
+    text-align: center;
     font-size: 1.3em;
     margin: 0;
     padding: 0;
 }
 
 .wrapper{
+    margin: 0;
+    padding: 0;
     height: 100vh;
     overflow-y: hidden;
 }
@@ -25,6 +30,8 @@ html, body{
     flex-wrap: nowrap;
     justify-content: space-around;
     height: 95vh;
+    margin: 0;
+    padding: 0;
 }
 .flex-container > div{
     height: 100%;
