@@ -17,6 +17,6 @@ $(document).ready(function(){
 });
 
 $("iframe").on("load",function(){
-    $("iframe").contents().find('.timeline-Viewport').css({"-webkit-overflow-scrolling": "touch"});
+    $("iframe").contents().find('.timeline-Viewport').css("-webkit-overflow-scrolling","touch");
 });
 
