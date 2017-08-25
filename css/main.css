@@ -1,5 +1,12 @@
 html body{
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.wrapper{
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .flex-container{
