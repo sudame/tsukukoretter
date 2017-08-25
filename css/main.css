@@ -13,3 +13,16 @@ html body{
     min-width: 250px;
     overflow: hidden;
 }
+
+table{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+table td{
+    min-width: 250px;
+}
