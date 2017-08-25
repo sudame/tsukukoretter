@@ -16,7 +16,7 @@ html, body{
     display: inline-flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    height: 95vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
